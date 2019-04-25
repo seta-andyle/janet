@@ -1,33 +1,39 @@
-body{
+body {
   background: url(images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.all{
+
+.all {
   width: 1000px;
   margin: auto;
 }
-.header{
-}
-.header .main-menu{
+
+.header {}
+
+.header .main-menu {
   list-style: none;
 }
-.header .main-menu .item{
+
+.header .main-menu .item {
   float: left;
   margin: 30px;
   position: relative;
 }
-.header .main-menu .item:hover>a{
+
+.header .main-menu .item:hover>a {
   color: blue;
   text-decoration: underline;
 }
-.header .main-menu .item a{
+
+.header .main-menu .item a {
   color: #ffffff;
   font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
 }
-.header .main-menu .item .sub-menu{
+
+.header .main-menu .item .sub-menu {
   position: absolute;
   left: -20px;
   padding: 0;
@@ -36,40 +42,53 @@ body{
   display: none;
   border-radius: 6px;
 }
-.header .main-menu .item:hover .sub-menu{
+
+.header .main-menu .item:hover .sub-menu {
   display: block;
 }
-.header .main-menu .item .sub-menu .sub-item{
+
+.header .main-menu .item .sub-menu .sub-item {
   padding: 10px 20px;
   border: 1px dotted #ddd;
 }
-.header .main-menu .item .sub-menu .sub-item:hover a{
+
+.header .main-menu .item .sub-menu .sub-item:hover a {
   color: blue
 }
-.header .main-menu .item .sub-menu .sub-item a{
+
+.header .main-menu .item .sub-menu .sub-item a {
   color: black;
   text-transform: none;
 }
-.main{
+
+.main {
   clear: both;
 }
-.main .nav{
+
+.main .nav {
   float: left;
   width: 30%;
   height: 500px;
   text-align: center;
   color: white
 }
-.main .article{
+
+.main .article {
   float: right;
   width: 70%;
   height: 500px;
   text-align: center;
   color: white
 }
-.footer{
+
+.footer {
   text-align: center;
   clear: both;
   height: 50px;
   color: white
+}
+
+.footer-bottom {
+  background: red;
+  color: #fff;
 }
